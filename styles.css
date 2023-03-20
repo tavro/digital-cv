@@ -1,0 +1,70 @@
+body {
+    background: #242424;
+    color: rgb(232, 230, 227);
+    font-family: Consolas,serif;
+}
+
+header {
+    height: 156px;
+    display: grid; 
+    grid-template-columns: 132px calc(100% - 132px);
+    width: 75%;
+    margin: auto;
+    margin-top: 32px;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    margin-top: 64px;
+}
+
+header img {
+    width: 128px;
+    border-radius: 50%;
+}
+
+header h1, header p {
+    padding: 8px;
+    margin: 0px;
+}
+
+header h1 {
+    color: rgb(232, 230, 227);
+}
+
+#desc {
+    color: #888;
+}
+
+.gray, .year {
+    color: #888;
+}
+
+a {
+    color: #579e40;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    margin-left: 16px;
+}
+
+.workplace {
+    padding: 8px;
+}
+
+.workplace hr {
+    width: 50%;
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 512px) {
+    .hidable {
+        display: none;
+    }
+}
